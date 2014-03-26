@@ -1,0 +1,11 @@
+<?php echo $this->tag->form("session/start")  ;?>
+
+	<label for="email">用户名/密码</label>
+	<?php echo $this->tag->textField(array("email", "size" =>"30")) ;?>
+    
+  	<label for="password">密码</label>
+    <?php echo $this->tag->passwordField(array("password", "size" => "30")) ?>
+
+    <?php echo $this->tag->submitButton(array('登陆')) ?>
+    
+</form>
